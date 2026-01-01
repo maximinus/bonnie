@@ -1,8 +1,9 @@
+from behave import given
+
 """
 Login step definitions using parse expressions
 Some steps are intentionally left undefined for testing
 """
-from behave import given
 
 
 @given('the login page is displayed')

@@ -1,13 +1,14 @@
+import time
+from behave import given, then
+
 """
 Common step definitions that can be reused across features
 """
-from behave import given, then
 
 
 @given('I wait {seconds:d} seconds')
 def step_wait_seconds(context, seconds):
     """Common wait step for timing"""
-    import time
     time.sleep(seconds)
 
 

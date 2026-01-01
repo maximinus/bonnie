@@ -1,7 +1,8 @@
+from behave import given, when, then
+
 """
 Calculator step definitions using regex patterns
 """
-from behave import given, when, then
 
 
 class Calculator:
